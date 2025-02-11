@@ -1,0 +1,86 @@
+:root {
+    --cor-hover: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+    padding: 8px;
+}
+
+.menu img {
+    height: 18px;
+}
+
+li {
+    background-color: none;
+    padding: 4px 8px;
+}
+
+li:hover {
+    background-color: var(--cor-hover);
+    transition: .4s;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10vh;
+}
+
+h3{
+    padding-bottom: 5vh;
+    font-family: "Roboto";
+}
+
+h2{
+    font-family: "Roboto";
+    padding-top: 5vh; 
+}
+
+div {
+    padding-top: 2%;
+    align-items: center;
+    text-align: center;
+    width: 35vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    box-shadow: -2px 9px 36px -14px rgba(0, 0, 0, 0.75);
+}
+
+button {
+    width: 100%;
+    height: 5vh;
+    border: none;
+    color: white;
+    background-color: red;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-top: auto; /* Garante que o botão vá para o final da div */
+}
+
+div img {
+    height: 15vh;
+    width: 15vh;
+}
